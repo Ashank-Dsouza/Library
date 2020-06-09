@@ -7,7 +7,7 @@ using System.Web.Http;
 
 namespace BookLibrary.Controllers
 {
-    public class ValuesController : ApiController
+    public class GetAllBooksByGenreController : ApiController
     {
         // GET api/values
         public string Get()
