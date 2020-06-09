@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Http;
 using System.Web.Mvc;
+using ServiceLayer;
 
 namespace BookLibrary
 {
@@ -12,7 +13,7 @@ namespace BookLibrary
         // GET: Details
         public List<string> Get(int id)
         {
-            ServiceLayer serviceLayer = new ServiceLayer();
+            Service serviceLayer = new Service();
             return serviceLayer.GetBookDetails(id);
         }
     }
