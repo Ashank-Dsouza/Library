@@ -20,7 +20,6 @@ namespace BookLibrary
     {
         public BookDetailsValidator()
         {
-            RuleFor(x => x.BookId).Equal(90);
             RuleFor(x => x.Title).NotNull();
             RuleFor(x => x.Author).NotNull();
             RuleFor(x => x.Genre).NotNull();
