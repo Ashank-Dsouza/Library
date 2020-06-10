@@ -1,0 +1,9 @@
+C:\Users\adsouza\source\repos\BookLibrary\DataAccessLayer\bin\Debug\netstandard2.0\DataAccessLayer.deps.json
+C:\Users\adsouza\source\repos\BookLibrary\DataAccessLayer\bin\Debug\netstandard2.0\DataAccessLayer.dll
+C:\Users\adsouza\source\repos\BookLibrary\DataAccessLayer\bin\Debug\netstandard2.0\DataAccessLayer.pdb
+C:\Users\adsouza\source\repos\BookLibrary\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\adsouza\source\repos\BookLibrary\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\adsouza\source\repos\BookLibrary\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\adsouza\source\repos\BookLibrary\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\adsouza\source\repos\BookLibrary\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.dll
+C:\Users\adsouza\source\repos\BookLibrary\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.pdb

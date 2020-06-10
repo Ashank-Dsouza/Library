@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DataAccessLayer
 {
-    interface IDataLayer
+    public interface IDataLayer
     {
         SqlConnection GetConnection();
 

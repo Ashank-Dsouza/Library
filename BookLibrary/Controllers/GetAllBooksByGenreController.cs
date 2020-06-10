@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ServiceLayer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -9,6 +10,7 @@ namespace BookLibrary.Controllers
 {
     public class GetAllBooksByGenreController : ApiController
     {
+        public IService _service;
         // GET api/values
         public string Get()
         {
@@ -18,9 +20,9 @@ namespace BookLibrary.Controllers
         // GET api/GetAllBooksByGenre/5
         public List<string> Get(int id)
         {
+            _service = new Service();
             string genre = "Fantasy";
-            ServiceLayer serviceLayer = new ServiceLayer();
-            return serviceLayer.GetListOfGenre(genre);
+            return _service.GetListOfGenre(genre);
         }
 
         // POST api/values

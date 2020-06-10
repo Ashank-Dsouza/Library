@@ -3,22 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using DataAccessLayer;
+using System.Data.SqlClient;
 
 namespace ServiceLayer
 {
     public class Service : IService
     {
+        public IDataLayer _dataLayer = new DataLayer();
         
         public List<string> GetListOfGenre(string genre)
         {
-            DataLayer dl = new DataLayer();
-            return dl.ExtractListOfGenre(genre);
+            return _dataLayer.ExtractListOfGenre(genre);
         }
 
         public List<string> GetBookDetails(int id)
         {
-            DataLayer dl = new DataLayer();
-            return dl.GetBookDetails(id);
+            return _dataLayer.GetBookDetails(id);
         }
 
     }

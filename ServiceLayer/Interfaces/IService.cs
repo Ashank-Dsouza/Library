@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ServiceLayer
 {
-    interface IService
+    public interface IService
     {
         List<string> GetListOfGenre(string genre);
         List<string> GetBookDetails(int id);
