@@ -11,17 +11,25 @@ namespace ServiceLayer
     {
         public IDataLayer _dataLayer = new DataLayer();
         
-        public List<string> GetListOfGenre(string genre)
+        public GenreList GetListOfGenre(string genre)
         {
-            return _dataLayer.ExtractListOfGenre(genre);
+            List <string> list1  = _dataLayer.ExtractListOfGenre(genre);
+            GenreList genreList = new GenreList();
+            genreList.BookList = list1;
+            return genreList;
         }
 
-        public List<string> GetBookDetails(int id)
+        public BookDetails GetBookDetails(int id)
         {
-            return _dataLayer.GetBookDetails(id);
+            List <string> list2 = _dataLayer.GetBookDetails(id);
+            BookDetails bookDetails = new BookDetails();
+            bookDetails.Title = list2[0];
+            bookDetails.Author = list2[1];
+            bookDetails.Genre = list2[2];
+
+            return bookDetails;
         }
 
     }
-
     
 }

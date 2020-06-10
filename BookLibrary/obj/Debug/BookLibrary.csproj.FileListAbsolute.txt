@@ -87,3 +87,9 @@ C:\Users\adsouza\source\repos\BookLibrary\BookLibrary\obj\Debug\BookLibrary.cspr
 C:\Users\adsouza\source\repos\BookLibrary\BookLibrary\obj\Debug\BookLibrary.csproj.CopyComplete
 C:\Users\adsouza\source\repos\BookLibrary\BookLibrary\obj\Debug\BookLibrary.dll
 C:\Users\adsouza\source\repos\BookLibrary\BookLibrary\obj\Debug\BookLibrary.pdb
+C:\Users\adsouza\source\repos\BookLibrary\BookLibrary\bin\FluentValidation.dll
+C:\Users\adsouza\source\repos\BookLibrary\BookLibrary\bin\FluentValidation.ValidatorAttribute.dll
+C:\Users\adsouza\source\repos\BookLibrary\BookLibrary\bin\FluentValidation.WebApi.dll
+C:\Users\adsouza\source\repos\BookLibrary\BookLibrary\bin\System.ComponentModel.Annotations.dll
+C:\Users\adsouza\source\repos\BookLibrary\BookLibrary\bin\FluentValidation.xml
+C:\Users\adsouza\source\repos\BookLibrary\BookLibrary\bin\FluentValidation.WebApi.xml

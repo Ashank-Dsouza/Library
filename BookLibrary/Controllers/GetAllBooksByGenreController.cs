@@ -18,7 +18,7 @@ namespace BookLibrary.Controllers
         }
 
         // GET api/GetAllBooksByGenre/5
-        public List<string> Get(int id)
+        public GenreList Get(int id)
         {
             _service = new Service();
             string genre = "Fantasy";

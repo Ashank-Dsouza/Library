@@ -18,9 +18,12 @@ namespace BookLibrary.Controllers
         }
 
         // GET: /api/details/1
-        public List<string> Get(int id)
+        public BookDetails Get(int id)
         {
-            return _service.GetBookDetails(id);
+            BookDetails bookDetails = Translate.ServiceLayerToBookLibraryLayerForBookDetails(_service.GetBookDetails(id));
+            BookDetailsValidator validator = new BookDetailsValidator();
+            var result = validator.Validate(bookDetails);
+            return bookDetails;
         }
     }
 }

@@ -8,7 +8,7 @@ namespace ServiceLayer
 {
     public interface IService
     {
-        List<string> GetListOfGenre(string genre);
-        List<string> GetBookDetails(int id);
+        GenreList GetListOfGenre(string genre);
+        BookDetails GetBookDetails(int id);
     }
 }
